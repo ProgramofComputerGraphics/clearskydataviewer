@@ -1,0 +1,18 @@
+README:
+
+These tools provide a simple method for comparing the radiance curves of multiple time/position samples at the same time. The tool includes an plot of sample spectra, and an angle visualizaton of where on the hemisphere the sample is taken. 
+
+Usage: 
+python RadianceCompare.py
+
+Dependencies:
+The tool requires a system running Python (2.7) with the following libraries installed: PySide, Matplotlib
+
+Using the tool:
+ - Once the tool is open, you can load radiance files by clicking File->Load Radiance File, and then clicking on the radiance sample text files that you want to load. 
+ - You can also load radiance files by dragging and dropping the radiance files onto the tool window. 
+ - To visualize the sample position on the hemisphere, you must load a fisheye image. Do this by navigating to File->Load Fisheye Image, and selecting the image you want to load. 
+ 
+ - Once the data is loaded, click on samples in the sample list to view the spectral curve associated with that sample. You can "check" samples to keep the sample visible in the graph view. 
+ - The fisheye view will show you the position on the hemisphere of the sample. 
+ 
